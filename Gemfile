@@ -1,15 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
-gem 'actionmailer', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
-gem 'actionpack', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
-gem 'activemodel', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
-gem 'activerecord', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
-gem 'activeresource', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
-gem 'activesupport', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
-gem 'railties', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
-
-gem 'sprockets', :git => 'https://github.com/sstephenson/sprockets.git'
+gem 'rails', '3.1.0'
 
 
 # Bundle edge Rails instead:
@@ -20,8 +11,8 @@ gem 'pg'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', "~> 3.1.0.rc"
-  gem 'coffee-rails', "~> 3.1.0.rc"
+  gem 'sass-rails', "~> 3.1.0"
+  gem 'coffee-rails', "~> 3.1.0"
   gem 'uglifier'
 end
 
