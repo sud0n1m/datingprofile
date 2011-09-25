@@ -18,6 +18,9 @@ end
 
 gem 'jquery-rails'
 
+gem 'samurai'
+
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
